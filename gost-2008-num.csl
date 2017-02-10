@@ -2,9 +2,9 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="ru-RU">
 	<!-- default-locale="ru-RU"> -->
   <info>
-    <title>ГОСТ R 7.0.5-2008 (автор-год)</title>
-    <id>https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-plain.csl</id>
-    <link href="https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-plain.csl" rel="self"/>
+    <title>ГОСТ R 7.0.5-2008 (номер)</title>
+    <id>https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-num.csl</id>
+    <link href="https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-num.csl" rel="self"/>
     <author>
       <name>Based on Roman Raspopov, Andrey Chetverikov</name>
       <email>romanraspopov@gmail.com  andrey@chetvericov.ru</email>
@@ -366,7 +366,7 @@
 
     _______________________________________________________________________________ -->
 
-<!-- Нумерованные ссылки вида [1] или [1, с. 55]. 
+<!-- Нумерованные ссылки вида [1] или [1, с. 55]. -->
 
   <citation et-al-min="4" et-al-use-first="1" collapse="citation-number">
     <sort>
@@ -382,21 +382,8 @@
       </choose>      
 	</layout>
   </citation>
--->
-	<citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
-    <layout prefix="[" suffix="]" delimiter=",&#160;">
-      <group delimiter=", ">
-        <group delimiter=", ">
-          <text macro="author_short"/>
-       <!--   <text macro="year-date"/> -->
-      	</group>
-        <group>
-          <label suffix=" " variable="locator" form="short"/>
-          <text variable="locator"/>
-        </group>
-      </group> 
-    </layout>
-  </citation>
+
+
   
 	
 	
