@@ -3,8 +3,8 @@
 	<!-- default-locale="ru-RU"> -->
   <info>
     <title>ГОСТ R 7.0.5-2008 (по разделам)</title>
-    <id>http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab</id>
-    <link href="https://raw.githubusercontent.com/ternikov/test/gh-pages/gost-2008-law.csl" rel="self"/>
+    <id>https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-law.csl</id>
+    <link href="https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-law.csl" rel="self"/>
     <author>
       <name>Based on Roman Raspopov, Andrey Chetverikov</name>
       <email>romanraspopov@gmail.com  andrey@chetvericov.ru</email>
