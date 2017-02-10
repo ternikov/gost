@@ -203,7 +203,7 @@
             <text variable="container-title"/>
           </substitute>
          </names>
-        <text macro="year-date" prefix=", "/>
+        <text macro="year-date" prefix=",&#160;"/>
   </macro>  
 
   <macro name="author-title">
