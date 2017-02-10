@@ -196,7 +196,7 @@
       </else>
     </choose>  -->
 	    <names variable="author" suffix="">
-      <name et-al-min="3" et-al-use-first="2" suppress-min="5" initialize-with=". " font-style="normal" name-as-sort-order="all" sort-separator=" "/>
+      <name et-al-min="3" et-al-use-first="2" suppress-min="5" initialize-with=".&#160;" font-style="normal" name-as-sort-order="all" sort-separator="&#160;"/>
       <et-al term="and others"/>
         <substitute>
             <text variable="title"/>
