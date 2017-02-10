@@ -391,7 +391,7 @@
        <!--   <text macro="year-date"/> -->
       	</group>
         <group>
-          <label suffix=" " variable="locator" form="short"/>
+          <label suffix="&#160;" variable="locator" form="short"/>
           <text variable="locator"/>
         </group>
       </group> 
