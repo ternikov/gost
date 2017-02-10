@@ -2,9 +2,9 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="ru-RU">
 	<!-- default-locale="ru-RU"> -->
   <info>
-    <title>ГОСТ R 7.0.5-2008 (по разделам)</title>
-    <id>http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab</id>
-    <link href="https://raw.githubusercontent.com/ternikov/test/gh-pages/gost-2008-law.csl" rel="self"/>
+    <title>ГОСТ R 7.0.5-2008 (автор-год)</title>
+    <id>https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-plain.csl</id>
+    <link href="https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-plain.csl" rel="self"/>
     <author>
       <name>Based on Roman Raspopov, Andrey Chetverikov</name>
       <email>romanraspopov@gmail.com  andrey@chetvericov.ru</email>
@@ -375,196 +375,17 @@
   </citation>
 -->
 	<citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
-    <layout delimiter="; " suffix=".">
-<!--      <group delimiter=", ">
+    <layout prefix="[" suffix="]" delimiter=",&#160;">
+      <group delimiter=", ">
         <group delimiter=", ">
-          <text macro="author-title"/>
-          <text macro="year-date"/> -->
-      
-	<choose>
-<!--_______________________________________________________________________________
-    _______________ КНИГА (в т.ч. многотомник или отдельный том, а также __________
-    Электронный ресурс локального доступа (CD-ROM, компьютерная программа и др.))__
-    _______________________________________________________________________________ -->
-      <if type="book">
-        <group delimiter=". ">
-          <group delimiter="&#160;/ ">
-            <group delimiter=". ">
-              <group delimiter="&#160;: ">
-                <text macro="author-title-medium"/>
-                <text variable="collection-title"/>
-                <text macro="number-of-volumes"/>
-              </group>
-              <text macro="volume"/>
-              <text variable="title-short"/>
-            </group>  
-       <!--     <group delimiter=" ">
-              <text macro="second-position-creators"/>
-              <text variable="note"/>              
-            </group> -->
-          </group>            
-          <text macro="publisher"/>
-          <text macro="collection-number"/>
-          <text macro="pages-or-volumes1"/>
-          <text variable="medium"/>
-        </group>
-      </if>
-<!--_______________________________________________________________________________
-    _________________________ ДИССЕРТАЦИЯ или АВТОРЕФЕРАТ _________________________
-    _______________________________________________________________________________ -->
-      <else-if type="thesis" match="any">
-        <group delimiter=". " prefix="">
-          <group delimiter="&#160;/ ">
-            <group delimiter="&#160;: ">
-              <text macro="author-title"/>
-              <text variable="genre"/>
-            </group>
-            <text macro="second-position-authors-only"/>
-          </group>            
-          <text macro="publisher"/>            
-        <!--  <text macro="number-of-pages"/> -->
-        </group>
-      </else-if>
-<!--_______________________________________________________________________________
-    ___________ РАЗДЕЛ КНИГИ, СТАТЬЯ В СБОРНИКЕ, СТАТЬЯ В ЭНЦИКЛОПЕДИИ ____________
-    _______________________________________________________________________________ -->
-      <else-if type="chapter paper-conference entry-encyclopedia" match="any">
-        <group delimiter=". ">
-          <group delimiter="&#160;// ">
-            <group delimiter="&#160;/ ">
-              <text macro="author-title"/>
-    <!--          <text macro="second-position-authors-only"/> -->
-            </group>
-            <group delimiter="&#160;/ ">
-              <group delimiter="&#160;: ">
-                <group delimiter=" ">
-                  <text variable="container-title"/>
-                  <text variable="event"/>                  
-                </group>                
-                <text variable="collection-title"/>
-                <text macro="number-of-volumes"/>
-              </group>
-              <group delimiter=" ">                
-                <text macro="second-position-creators-no-authors"/>
-                <text variable="note"/>
-              </group>              
-            </group>                
-          </group>
-          <text macro="publisher"/>
-          <text macro="volume"/>
-          <text macro="collection-number"/>
-          <text variable="title-short"/>
-        <!--  <text macro="page"/> -->
-        </group>
-      </else-if>
-<!--_______________________________________________________________________________
-    _________________________ СТАТЬЯ В ПЕРИОДИКЕ, ЖУРНАЛЕ _________________________
-    _______________________________________________________________________________ -->
-      <else-if type="article-journal article-magazine" match="any">        
-        <group delimiter=". ">
-          <group delimiter="&#160;// ">
-            <group delimiter="&#160;/ ">
-              <group delimiter="&#160;: ">
-                <text macro="author-title"/>
-                <text variable="collection-title"/>                
-              </group>              
-      <!--        <text macro="second-position-authors-only"/>  -->
-            </group>
-            <text variable="container-title"/>            
-          </group>
-          <text macro="year-date"/>          
-          <text macro="volume"/>          
-          <text variable="title-short"/>
-		<text macro="iss"/>          
-	<!--    <label variable="issues" text-case="capitalize-first"/>
-<label variable="issue" form="short" text-case="capitalize-first"/>
-<text macro="volcheck"/>
-<text variable="issue" prefix="№&#160;"/>   
-		<choose>
-              <if variable="language">  
-                            <text variable="issue" prefix="№&#160;"/>
-              </if>
-              <else>
-                            <text variable="issue" prefix="No.&#160;"/>
-              </else>
-                </choose> -->
-         <!-- <text macro="page"/> -->
-        </group>
-      </else-if>
-<!--_______________________________________________________________________________
-    ______________________________ СТАТЬЯ В ГАЗЕТЕ ________________________________
-    _______________________________________________________________________________ -->
-      <else-if type="article-newspaper">        
-        <group delimiter=". ">
-          <group delimiter="&#160;// ">
-            <group delimiter="&#160;/ ">
-              <group delimiter=" : ">
-                <text macro="author-title"/>
-                <text variable="section"/>                
-              </group>              
-              <text macro="second-position-authors-only"/>
-            </group>
-            <text variable="container-title"/>            
-          </group>
-          <text macro="year-date"/>                  
-          <text macro="day-month"/>          
-         <!-- <text macro="page"/> -->
-        </group>
-      </else-if>
-<!--_______________________________________________________________________________
-    ___________ ЭЛЕКТРОННЫЙ РЕСУРС УДАЛЕННОГО ДОСТУПА (ВЕБ-СТРАНИЦА)_______________
-    _______________________________________________________________________________ -->
-      <else-if type="webpage">
-        <group delimiter=". " prefix="">
-          <group delimiter="&#160;/ ">
-            <group delimiter="&#160;: ">
-              <text macro="author-title" suffix=" [Электронный ресурс]"/>
-              <text variable="genre"/>
-            </group>
-            <group delimiter=" ">
-              <text macro="second-position-authors-only"/>
-              <text variable="note"/>
-            </group>            
-          </group>            
-          <text prefix=" " macro="access1"/>
-	<!--	<text variable="URL" prefix="Режим доступа: "/>   -->
-        </group>
-      </else-if>
-<!--_______________________________________________________________________________
-    _____________________________ Другие типы источников __________________________
-    _______________________________________________________________________________ -->
-      <else>        
-        <group delimiter=". ">
-          <group delimiter="&#160;/ ">
-            <group delimiter=". ">
-              <group delimiter="&#160;: ">
-                <text macro="author-title"/>
-                <text variable="collection-title"/>
-                <text macro="number-of-volumes"/>
-              </group>
-              <text macro="volume"/>
-              <text variable="title-short"/>
-            </group>  
-            <group delimiter=" ">
-              <text macro="second-position-creators"/>
-              <text variable="note"/>               
-            </group>
-          </group>            
-          <text macro="publisher"/>
-          <text macro="collection-number"/>
-          <text macro="pages-or-volumes1"/>
-        </group>
-      </else>
-
-    </choose>      
-	      
-	      
-<!--	</group>
+          <text macro="author-short"/>
+       <!--   <text macro="year-date"/> -->
+      	</group>
         <group>
           <label suffix=" " variable="locator" form="short"/>
           <text variable="locator"/>
         </group>
-      </group> -->
+      </group> 
     </layout>
   </citation>
   
@@ -833,7 +654,7 @@
       <!-- <key variable="citation-number"/>-->
       
       <!-- Сортировка по полю "Language" (сначала русскоязычные источники, затем иностранные), потом по алфавиту (ФИО или название), потом по дате издания -->
-      <key macro="type-sorting"/>  
+<!--      <key macro="type-sorting"/>  -->
     <key macro="language-sort"/> 
       <key macro="author-title"/>
       <key variable="issued"/>
