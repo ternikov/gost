@@ -829,7 +829,7 @@
     _________ Непосредтсвенно БИБЛИОГРАФИЯ с сортировкой и локализацией ___________
     _______________________________________________________________________________ -->
 
-  <bibliography et-al-min="4" et-al-use-first="3" page-range-format="" hanging-indent="false" second-field-align="3">  
+  <bibliography hanging-indent="true" et-al-min="4" et-al-use-first="3" page-range-format="">  
     <sort>
       <!-- Раскомментируйте нужный блок сортировки. Остальные блоки внутри тегов <sort> должны быть закомментированы-->
 
