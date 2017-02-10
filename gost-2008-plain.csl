@@ -378,7 +378,7 @@
     <layout prefix="[" suffix="]" delimiter=",&#160;">
       <group delimiter=", ">
         <group delimiter=", ">
-          <text macro="author-short"/>
+          <text macro="author_short"/>
        <!--   <text macro="year-date"/> -->
       	</group>
         <group>
