@@ -558,7 +558,7 @@
     </choose>      
 		<choose>
         <if variable="locator">
-          <label variable="locator" form="short" prefix=".&#160;" suffix="&#160;" text-case="capitalize-first"/> 
+          <label variable="locator" form="short" text-case="capitalize-first" prefix=".&#160;" suffix="&#160;"/> 
 	  <text variable="locator"/>
         </if>        
       </choose> 	      
