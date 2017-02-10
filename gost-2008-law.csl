@@ -555,9 +555,13 @@
           <text macro="pages-or-volumes1"/>
         </group>
       </else>
-
     </choose>      
-	      
+		<choose>
+        <if variable="locator">
+          <label variable="locator" form="short" prefix=",&#160;" suffix="&#160;"/>
+          <text variable="locator"/>
+        </if>        
+      </choose> 	      
 	      
 <!--	</group>
         <group>
