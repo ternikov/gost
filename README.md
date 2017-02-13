@@ -7,7 +7,19 @@
 | ----------------- | ----------------------------- | :----------------------: |
 | `gost-2008-num`   | [number]                      | alphabetic               |
 | `gost-2008-plain` | (Author, year)                | alphabetic               |
-| `gost-2008-law`   | <sup>[\#]</sup>Footnotes  | source type & alphabetic |
+| `gost-2008-law`   | <sup>[\#]</sup>Footnotes      | source type & alphabetic |
+
+>###Sorting by Source Type (\*.csl) in `gost-2008-law`
+1<sup>st</sup> priority: `legislation` `bill` </br>
+2<sup>nd</sup> priority: `book` `chapter`     </br>
+3<sup>rd</sup> priority: `article-journal`    </br>
+4<sup>th</sup> priority: `article-magazine`   </br>
+5<sup>th</sup> priority: `article-newspaper`  </br>
+6<sup>th</sup> priority: `thesis`             </br>
+7<sup>th</sup> priority: `webpage`            </br>
+8<sup>th</sup> priority: `report`             </br>
+9<sup>th</sup> priority: the other
+
 
 ### Mendeley vs. CSL types
 | Mendeley              | CSL                  |     | Mendeley             | CSL                 |
