@@ -28,6 +28,8 @@
 5.  Hazledine&nbsp;T. Price discrimination in Cournot–Nash oligopoly&nbsp;// Economics Letters. 2006. Т.&nbsp;93. №&nbsp;3. С.&nbsp;413&ndash;420. `article-journal`
 6.  Ситуационный центр региона [Электронный ресурс]. Режим доступа: http&#58;//www<i></i>.prognoz.<i></i>ru/products/line/situation-center. (дата обращения:&nbsp;08.02.2017). `webpage`
 
+___
+
 > Main Destinctions in English: </br>
 > `c.` --- `p.` </br>
 > `№` --- `No.` </br>
