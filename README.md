@@ -2,6 +2,13 @@
 
 \*.csl files for *Mendeley*, *Zotero*, *Papers* (ГОСТ 2008).
 
+## Styles
+| Syle Name         | Inline Citation               | Bibliography Sort        |
+| ----------------- | ----------------------------- | :----------------------: |
+| `gost-2008-num`   | [number]                      | alphabetic               |
+| `gost-2008-plain` | [Author, year]                | alphabetic               |
+| `gost-2008-law`   | <sup>[\#]</sup>Footnotes  | source type & alphabetic |
+
 ### Mendeley vs. CSL types
 | Mendeley              | CSL                  |     | Mendeley             | CSL                 |
 | --------------------- | -------------------- | --- | -------------------- | ------------------- |
