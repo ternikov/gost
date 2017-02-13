@@ -384,7 +384,7 @@
   </citation>
 -->
 	<citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
-    <layout prefix="[" suffix="]" delimiter=",&#160;">
+    <layout prefix="(" suffix=")" delimiter=",&#160;">
       <group delimiter=", ">
         <group delimiter=", ">
           <text macro="author_short"/>
