@@ -418,7 +418,7 @@
       <!--  <text value="[Электронный ресурс]. "/> -->
         <text variable="URL" prefix="Режим доступа: "/>
       <!--  <text variable="URL" prefix="URL: "/> -->
-        <group prefix=" (" suffix=")">
+        <group prefix=" (" suffix=").">
           <text term="accessed" suffix=":&#160;"/>
           <date variable="accessed">
             <date-part name="day" suffix="." form="numeric-leading-zeros"/>
