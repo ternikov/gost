@@ -281,7 +281,7 @@
 
   <macro name="page">
     <label variable="page" form="short" prefix="" suffix="&#160;" text-case="capitalize-first"/>
-    <text variable="page"/>    
+    <text variable="page" suffix="."/>    
   </macro>
 
   <macro name="number-of-pages">    
