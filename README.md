@@ -36,16 +36,16 @@
 > `Т.` --- `Vol.` </br>
 > `и др.` --- `et al.` </br>
 
->###Sorting by Source Type (\*.csl) in `gost-2008-law`
-1<sup>st</sup> priority: `legislation` `bill` </br>
-2<sup>nd</sup> priority: `book` `chapter`     </br>
-3<sup>rd</sup> priority: `article-journal`    </br>
-4<sup>th</sup> priority: `article-magazine`   </br>
-5<sup>th</sup> priority: `article-newspaper`  </br>
-6<sup>th</sup> priority: `thesis`             </br>
-7<sup>th</sup> priority: `webpage`            </br>
-8<sup>th</sup> priority: `report`             </br>
-9<sup>th</sup> priority: the other
+>### Sorting by Source Type (\*.csl) in `gost-2008-law`
+>1<sup>st</sup> priority: `legislation` `bill` </br>
+>2<sup>nd</sup> priority: `book` `chapter`     </br>
+>3<sup>rd</sup> priority: `article-journal`    </br>
+>4<sup>th</sup> priority: `article-magazine`   </br>
+>5<sup>th</sup> priority: `article-newspaper`  </br>
+>6<sup>th</sup> priority: `thesis`             </br>
+>7<sup>th</sup> priority: `webpage`            </br>
+>8<sup>th</sup> priority: `report`             </br>
+>9<sup>th</sup> priority: the other
 
 
 ### Mendeley vs. CSL types
