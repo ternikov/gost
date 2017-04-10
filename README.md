@@ -5,9 +5,9 @@
 ## Styles
 | Syle Name         | Inline Citation               | Bibliography Sort        |
 | ----------------- | ----------------------------- | :----------------------: |
-| `gost-2008-num`   | [number]                      | alphabetic               |
-| `gost-2008-plain` | (Author, year)                | alphabetic               |
-| `gost-2008-law`   | <sup>[\#]</sup>Footnotes      | source type & alphabetic |
+| [:arrow_down:](https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-num.csl "gost-2008-num.csl") `gost-2008-num`   | [number]                      | alphabetic               |
+| [:arrow_down:](https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-plain.csl "gost-2008-plain.csl") `gost-2008-plain` | (Author, year)                | alphabetic               |
+| [:arrow_down:](https://raw.githubusercontent.com/ternikov/gost/master/gost-2008-law.csl "gost-2008-law.csl") `gost-2008-law`   | <sup>[\#]</sup>Footnotes      | source type & alphabetic |
 
 ## Examples
 `gost-2008-law` </br>
