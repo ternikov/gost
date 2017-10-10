@@ -61,3 +61,17 @@
 |Encyclopedia Article   | `entry-encyclopedia` |     | Television Broadcast | `broadcast`         |
 |Film                   | `motion_picture`     |     | Web Page             | `webpage`           |
 |Hearing                | `speech`             |     | Working Paper        | `article`           |
+
+## Markdown
+
+```
+---
+title: "Sample Document"
+bibliography: references.bib
+csl: gost-2008-plain.csl 
+---
+
+[@article_code]
+
+# References
+```
