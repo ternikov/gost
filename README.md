@@ -1,6 +1,6 @@
 # gost
 
-\*.csl files for *Mendeley*, *Zotero*, *Papers* (ГОСТ 2008).
+\*.csl files for *Mendeley*, *Zotero*, *Papers*, *Markdown* (ГОСТ 2008).
 
 ## Styles
 | Syle Name         | Inline Citation               | Bibliography Sort        |
