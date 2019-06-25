@@ -1,5 +1,3 @@
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script><noscript>
-
 # gost
 
 \*.csl files for *Mendeley*, *Zotero*, *Papers*, *Markdown* (ГОСТ 2008).
